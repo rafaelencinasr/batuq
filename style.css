@@ -8,10 +8,13 @@ html, body{
     color: white;
     margin: 0;
     padding: 0;
+    box-shadow: 0px 20px 15px -3px rgba(0,0,0,0.1);
 }
 
 .nav-link, .navbar-brand, .nav-link:visited, .navbar-brand:visited{
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .nav-link:hover, .navbar-brand:hover{
     color: rgb(172, 172, 172);
@@ -19,8 +22,62 @@ html, body{
 
 .navbar-toggler{
     background-color: #919031;
+    position: absolute;
+    top: 14px;
+    left: 12px;
 }
 .navbar-toggler-icon{
 
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#placeholder{
+    min-height: 100vh;
+    text-align: center;
+}
+
+#footer{
+    background-color: #2F2E33;
+    color: white;
+    margin: 0;
+    padding: 25px 0;
+    box-shadow: 0px -20px 15px -3px rgba(0,0,0,0.1);
+    min-height: 200px;
+}
+
+.footerAgaveLine{
+    border-bottom: #919031 solid 2px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 80px;
+}
+
+#footerAgave{
+    position: relative;
+    bottom: -7px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-column>a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+}
+
+.footer-column>a:hover{
+    color: rgb(172, 172, 172);
+}
+
+#footerLogo{
+    width: clamp(150px, 100%, 200px);
+    height: auto;
 }
