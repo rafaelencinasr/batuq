@@ -74,6 +74,16 @@
     height: auto;
 }
 
+#image-atr{
+    font-size: 10px;
+    text-align: end;
+}
+
+#image-atr>a{
+    text-decoration: none;
+    color:white
+}
+
 
 #verifyAge{
     height: 100vh;

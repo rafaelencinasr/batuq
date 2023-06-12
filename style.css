@@ -60,7 +60,7 @@ button{
     display: flex;
 }
 
-.sectionGreen>.sectionCard>button{
+.sectionGreen>.sectionCard>a>button{
     background-color: #2F2E33;
 }
 
