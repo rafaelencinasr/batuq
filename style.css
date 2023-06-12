@@ -1,10 +1,13 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #2F2E33;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar-custom{
-    background-color: #2F2E33;
+    background-color: #222222;
     color: white;
     margin: 0;
     padding: 0;
@@ -37,7 +40,7 @@ html, body{
 }
 
 #footer{
-    background-color: #2F2E33;
+    background-color: #222222;
     color: white;
     margin: 0;
     padding: 25px 0;
@@ -61,7 +64,8 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    gap: 10px;
 }
 
 .footer-column>a{
@@ -80,4 +84,188 @@ html, body{
 #footerLogo{
     width: clamp(150px, 100%, 200px);
     height: auto;
+}
+
+#home{
+    width: 100vw;
+
+}
+
+#dondeComprar{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#dondeComprar>img{
+    width: 270px;
+    height: auto;
+}
+
+#dondeComprar>h2{
+    font-family: 'Playfair', serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    background-color: #919031;
+    border: none;
+    border-radius: 10px ;
+    padding: 10px;
+    font-weight:600;
+    color: white;
+}
+
+#sections{
+    margin: 0 10%;
+}
+
+.sectionImage{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.sectionGreen{
+    background-color: #919031;
+    padding: 0;
+    display: flex;
+}
+
+.sectionGrey{
+    padding: 0;
+    display: flex;
+}
+
+.sectionGreen>.sectionCard>button{
+    background-color: #2F2E33;
+}
+
+.col-6{
+    padding: 0;
+}
+
+.sectionCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 25px;
+    color: white;
+}
+
+.sectionCard>h2{
+    align-self: center;
+    font-family: 'Playfair', serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.sectionCard>p{
+    font-weight: 600;
+    font: 20px;
+}
+
+.sectionCard>*{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.250));
+}
+
+.sectionImage{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+#verifyAge{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    color: white;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+
+#verifyAge>img{
+    width: clamp(150px, 100%, 200px);
+    height: auto;
+}
+
+#menorEdad{
+    background-color: #2F2F32;
+    width: 100%;
+}
+
+#menorEdad:hover{
+    background-color: #1a1a1b;
+}
+
+#mayorEdad{
+    background-color: #919031;
+    width: 100%;
+}
+
+#mayorEdad:hover{
+    background-color: #727126;
+}
+
+#ageVerificationBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#ageVerificationBtns>a{
+    width: 100%;
+}
+
+#gotoUSA{
+    width: auto;
+    padding: 5px 15px;
+    margin-right: 10%;
+    align-self: flex-end;
+    text-decoration: none;
+    background-color: #2F2F32;
+    border-radius: 10px;
+    color: white;
+}
+
+#gotoUSA:hover{
+    background-color: #1a1a1b;
+}
+
+#gotoMX{
+    width: auto;
+    padding: 5px 15px;
+    margin-right: 10%;
+    align-self: flex-end;
+    text-decoration: none;
+    background-color: #2F2F32;
+    border-radius: 10px;
+    color: white;
+}
+
+#gotoMX:hover{
+    background-color: #1a1a1b;
+}
+
+#gotoMX>img{
+    width: 36px;
+    height: 36px;
 }
