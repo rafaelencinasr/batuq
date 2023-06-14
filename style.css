@@ -13,9 +13,27 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
 
-#home{
-    width: 100vw;
+
+#homeCarousel{
+    height: 90vh;
+}
+
+#homeCarousel>button:hover{
+    background-color: rgba(54, 54, 54, 0.205);
+}
+
+.carousel-inner, .carousel-item{
+    height: 100%;
+}
+
+.carousel-item>img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 #dondeComprar{
@@ -46,6 +64,16 @@ button{
     padding: 10px;
     font-weight:600;
     color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.274));
+}
+
+button:hover{
+    transition: 100ms;
+    background-color: rgb(126, 124, 43);
 }
 /* 
 #sections{
@@ -73,6 +101,10 @@ button{
 
 .sectionGreen>.sectionCard>a>button{
     background-color: #2F2E33;
+}
+
+.sectionGreen>.sectionCard>a>button:hover{
+    background-color: #252527;
 }
 
 .col-6{
@@ -134,7 +166,7 @@ button{
     font-size: 40px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.250));
     text-align: center;
-    margin: 5%;
+    margin: 0 5%;
 }
 
 .material-symbols-outlined {
@@ -144,11 +176,18 @@ button{
     'GRAD' 0,
     'opsz' 48;
     color: white;
+}
+
+.contact-icon{
     background-color: #919031;
     border-radius: 50%;
     padding: 10px;
-    /* font-size: 45px; */
     font-size: 1.5em;
+}
+
+.contact-icon:hover{
+    transition: 100ms;
+    background-color: rgb(126, 124, 43);
 }
 
 .contact-info{
