@@ -27,6 +27,7 @@ else{
 // When the user clicks on either "ENGLISH" or "SPANISH" button,
 // it should redirect to the current page but in spanish or english, respectively
 const pagesObj = {
+    '': 'en-usa.html',
     'index.html': 'en-usa.html',
     'productos.html': 'products.html',
     'historia.html': 'history.html',
