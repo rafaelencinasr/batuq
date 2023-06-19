@@ -27,7 +27,7 @@ navbarLocation.innerHTML = `<div class="container-fluid">
       <a class="nav-link" href="./where-to-buy.html">WHERE TO BUY</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./index.html" id="spanish-version-nav">ESPAÑOL</a>
+      <a class="nav-link" href="./index.html" id="change-lang-nav">ESPAÑOL</a>
     </li>
   </ul>
 </div>
@@ -66,7 +66,7 @@ footerLocation.innerHTML=`<div class="col-12 d-none d-lg-block">
     <a href="./sustainability.html">SUSTAINABILITY</a>
   </div>
   <div class="col-md-12 col-lg-3 footer-column">
-    <a href="./en-usa.html" id="spanish-version-footer">ESPAÑOL</a>
+    <a href="./en-usa.html" id="change-lang-footer">ESPAÑOL</a>
   </div>
 </div>
 </div>
