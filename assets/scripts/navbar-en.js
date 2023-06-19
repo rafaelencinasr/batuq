@@ -3,31 +3,31 @@ navbarLocation.innerHTML = `<div class="container-fluid">
 <button class="navbar-toggler toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
-<a class="navbar-brand mx-auto" href="index.html">
+<a class="navbar-brand mx-auto" href="en-usa.html">
   <img src="./assets/img/LogoNavbar.svg" alt="">
 </a>
 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
     <li class="nav-item">
-      <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+      <a class="nav-link" aria-current="page" href="en-usa.html">HOME</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+      <a class="nav-link" href="./products.html">PRODUCTS</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./historia.html">HISTORIA</a>
+      <a class="nav-link" href="./history.html">HISTORY</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./proceso.html">PROCESO</a>
+      <a class="nav-link" href="./process.html">PROCESS</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./sustentabilidad.html">SUSTENTABILIDAD</a>
+      <a class="nav-link" href="./sustainability.html">SUSTAINABILITY</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./donde-comprar.html">DÓNDE COMPRAR</a>
+      <a class="nav-link" href="./where-to-buy.html">WHERE TO BUY</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./en-usa.html" id="english-version-nav">ENGLISH</a>
+      <a class="nav-link" href="./index.html" id="spanish-version-nav">ESPAÑOL</a>
     </li>
   </ul>
 </div>
@@ -48,25 +48,25 @@ footerLocation.innerHTML=`<div class="col-12 d-none d-lg-block">
 </div>
 </div>
 <div class="col-md-12 col-lg-2">
-<a href="index.html" class="d-flex justify-content-center">
+<a href="en-usa.html" class="d-flex justify-content-center">
   <img id="footerLogo" src="./assets/img/LogoBatuq.svg" alt="">
 </a>
 </div>
 <div class="col-md-12 col-lg-8">
 <div class="row">
   <div class="col-md-12 col-lg-3 footer-column">
-    <a href="./productos.html">PRODUCTOS</a>
-    <a href="./donde-comprar.html">DÓNDE COMPRAR</a>
+    <a href="./products.html">PRODUCTS</a>
+    <a href="./where-to-buy.html">WHERE TO BUY</a>
   </div>
   <div class="col-md-12 col-lg-3 footer-column">
-    <a href="./historia.html">HISTORIA</a>
-    <a href="./proceso.html">PROCESO</a>
+    <a href="./history.html">HISTORY</a>
+    <a href="./process.html">PROCESS</a>
   </div>
   <div class="col-md-12 col-lg-3 footer-column">
-    <a href="./sustentabilidad.html">SUSTENTABILIDAD</a>
+    <a href="./sustainability.html">SUSTAINABILITY</a>
   </div>
   <div class="col-md-12 col-lg-3 footer-column">
-    <a href="./en-usa.html" id="english-version-footer">ENGLISH</a>
+    <a href="./en-usa.html" id="spanish-version-footer">ESPAÑOL</a>
   </div>
 </div>
 </div>
