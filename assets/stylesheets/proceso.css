@@ -57,6 +57,13 @@ p{
     border-right: solid 2px #B0AFAF;
 }
 
+.side-bar-small{
+    padding: 0 15px;
+    text-align: start;
+    box-sizing: border-box;
+    border-right: solid 2px #B0AFAF;
+}
+
 .side-bar li{
     color: #919031;
     list-style-type: none;
